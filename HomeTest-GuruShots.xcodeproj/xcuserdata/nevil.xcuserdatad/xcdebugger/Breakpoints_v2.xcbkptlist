@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3BB23872-1BD1-44B0-9521-510AC86716CF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeTest-GuruShots/MainViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
-            landmarkName = "moveCoinToYellowView()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "66B8DE43-1E06-4EAC-830F-3BF7E91DB6E3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -30,8 +14,8 @@
             filePath = "HomeTest-GuruShots/MainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "moveCoinToYellowView()"
             landmarkType = "7">
          </BreakpointContent>

@@ -155,19 +155,11 @@ class MainViewController: UIViewController {
 
         childAViewController.coinImageView.frame.origin.x
         // Calculate the distance
-        let dx = (coinBViewCenter.x + coinAViewCenter.x) + 12.5
+        let dx = (coinBViewCenter.x + coinAViewCenter.x) - (childAViewController.coinImageView.frame.origin.x / 2 + childAViewController.coinImageView.frame.width/2)
         let dy = coinBViewCenter.y + coinAViewCenter.y
 
         finalPosition.y = -dy
-
         finalPosition.x = -dx
-
-        //childAViewController.coinImageView.frame.origin.x - (childBViewController.coinImageView.frame.origin.x + childBViewController.blueView.frame.origin.x)
-
-//        X = 20
-//        blueVew = 120
-//        coinView = 60
-//        180
         // Animate the movement to the final position
         await withCheckedContinuation { continuation in
             UIView.animate(withDuration: 0.5, animations: {
